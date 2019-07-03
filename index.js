@@ -1,24 +1,13 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    jsx: true,
-    useJSXTextNode: true,
-  },
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommended',
     'prettier',
     'prettier/@typescript-eslint',
-    'prettier/react',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
   ],
-  env: {
-    browser: true,
-    node: true,
-    jest: true,
-  },
   plugins: [
     'prettier',
     'promise',
@@ -56,7 +45,6 @@ module.exports = {
     'promise/no-return-wrap': 'error',
     'promise/param-names': 'error',
     'promise/valid-params': 'error',
-    'react/prop-types': 'off',
     'strict': 'off',
     'no-restricted-syntax': [
       'error',
