@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-daaku",
+  "version": "1.0.1",
+  "description": "eslint config for daaku",
+  "repository": "git@github.com:daaku/eslint-config-daaku",
+  "keywords": ["eslint", "eslintconfig"],
+  "author": "Naitik Shah <n@daaku.org>",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": "^5.16",
+    "eslint-config-prettier": "^6.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "6.2",
+    "eslint-plugin-prettier": "3.1",
+    "eslint-plugin-promise": "^4.2",
+    "eslint-plugin-react": "^7.14"
+  }
+}
