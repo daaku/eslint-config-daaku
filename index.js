@@ -20,6 +20,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off',
     'class-methods-use-this': 'off',
     'default-case': 'off',
+    'import/default': 'off',
     'import/named': 'off',
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
