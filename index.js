@@ -64,11 +64,13 @@ module.exports = {
       }
     ],
   },
-  overrides: {
-    files: ['*/__tests__/*'],
-    rules: {
-      '@typescript-eslint/no-object-literal-type-assertion': 0,
-      '@typescript-eslint/no-explicit-any': 0,
+  overrides: [
+    {
+      files: ['*/__tests__/*'],
+      rules: {
+        '@typescript-eslint/no-object-literal-type-assertion': 0,
+        '@typescript-eslint/no-explicit-any': 0,
+      },
     },
-  },
+  ],
 };
