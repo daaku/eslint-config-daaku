@@ -12,6 +12,7 @@ module.exports = {
     'prettier',
     'promise',
     '@typescript-eslint',
+    'simple-import-sort',
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
@@ -48,6 +49,7 @@ module.exports = {
     'promise/param-names': 'error',
     'promise/valid-params': 'error',
     'strict': 'off',
+    'simple-import-sort/sort': 'error',
     'no-restricted-syntax': [
       'error',
       {
