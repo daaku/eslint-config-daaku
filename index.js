@@ -49,7 +49,8 @@ module.exports = {
     'promise/param-names': 'error',
     'promise/valid-params': 'error',
     'strict': 'off',
-    'simple-import-sort/sort': 'error',
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
     'no-restricted-syntax': [
       'error',
       {
