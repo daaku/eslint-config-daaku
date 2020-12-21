@@ -13,7 +13,7 @@
     "@typescript-eslint/eslint-plugin": "^4.8.2",
     "@typescript-eslint/parser": "^4.8.2",
     "eslint": "^7.14",
-    "eslint-config-prettier": "^6.15",
+    "eslint-config-prettier": "^7.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "6.4",
     "eslint-plugin-prettier": "3.1",
