@@ -1,6 +1,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   extends: [
+    'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
     'plugin:import/errors',
@@ -14,19 +15,17 @@ module.exports = {
     'simple-import-sort',
   ],
   rules: {
+    '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/indent': 'off',
-    '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-parameter-properties': 'off',
-    '@typescript-eslint/no-unused-vars': 'off',
     'class-methods-use-this': 'off',
     'default-case': 'off',
     'import/default': 'off',
     'import/named': 'off',
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
-    'jsx-a11y/label-has-associated-control': 'off',
-    'jsx-a11y/label-has-for': 'off',
     'no-case-declarations': 'off',
     'no-console': 'off',
     'no-continue': 'off',
@@ -47,7 +46,6 @@ module.exports = {
     'promise/no-return-wrap': 'error',
     'promise/param-names': 'error',
     'promise/valid-params': 'error',
-    'strict': 'off',
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
     'no-restricted-syntax': [
@@ -70,8 +68,9 @@ module.exports = {
     {
       files: ['*/__tests__/*'],
       rules: {
-        '@typescript-eslint/no-object-literal-type-assertion': 0,
         '@typescript-eslint/no-explicit-any': 0,
+        '@typescript-eslint/no-non-null-assertion': 'off',
+        '@typescript-eslint/no-object-literal-type-assertion': 0,
       },
     },
   ],
