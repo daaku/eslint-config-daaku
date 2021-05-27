@@ -20,6 +20,7 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/indent': 'off',
     '@typescript-eslint/no-parameter-properties': 'off',
+    'no-constant-condition': 'off',
     'class-methods-use-this': 'off',
     'default-case': 'off',
     'import/default': 'off',
