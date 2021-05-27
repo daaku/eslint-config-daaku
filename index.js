@@ -20,7 +20,6 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/indent': 'off',
     '@typescript-eslint/no-parameter-properties': 'off',
-    'no-constant-condition': 'off',
     'class-methods-use-this': 'off',
     'default-case': 'off',
     'import/default': 'off',
@@ -29,6 +28,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'no-case-declarations': 'off',
     'no-console': 'off',
+    'no-constant-condition': 'off',
     'no-continue': 'off',
     'no-param-reassign': 'off',
     'no-plusplus': 'off',
@@ -47,8 +47,8 @@ module.exports = {
     'promise/no-return-wrap': 'error',
     'promise/param-names': 'error',
     'promise/valid-params': 'error',
-    'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
+    'simple-import-sort/imports': 'error',
     'no-restricted-syntax': [
       'error',
       {
