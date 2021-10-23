@@ -1,6 +1,6 @@
 {
   "name": "@daaku/eslint-config",
-  "version": "3.9.0",
+  "version": "4.0.0",
   "description": "eslint config for daaku",
   "repository": "git@github.com:daaku/eslint-config-daaku",
   "keywords": [
@@ -10,15 +10,15 @@
   "author": "Naitik Shah <n@daaku.org>",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.25.0",
-    "@typescript-eslint/parser": "^4.25.0",
-    "eslint": "^7.27.0",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.3",
-    "eslint-plugin-prettier": "~3.4.0",
-    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "~4.0.0",
+    "eslint-plugin-promise": "^5.1.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "prettier": "^2.3.0",
+    "prettier": "^2.4.1",
     "prettier-config-daaku": "^1.0.0"
   }
 }
