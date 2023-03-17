@@ -1,6 +1,6 @@
 {
   "name": "@daaku/eslint-config",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "description": "eslint config for daaku",
   "repository": "git@github.com:daaku/eslint-config-daaku",
   "keywords": [
